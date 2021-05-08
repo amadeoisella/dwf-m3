@@ -1,0 +1,228 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /*Introduction*/
+  
+  .contenedor-introduccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .contenedor-header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .burguer-header div {
+    width: 36px;
+    height: 6px;
+    background-color: #141414;
+    margin: 7px;
+  }
+  
+  @media (max-width: 899px) {
+    .nav-bar {
+      display: none;
+    }
+  }
+  
+  .titulo-introduccion {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    margin: 95px 42px 70px 42px;
+  }
+  
+  .imagen-introduccion {
+    width: 318px;
+    height: 300px;
+  }
+  
+  /*Information*/
+  
+  .contenedor-informacion {
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+  }
+  
+  .bloque {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin: 55px 32px 0 32px;
+  }
+  
+  .subtitulo-informacion {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0;
+  }
+  
+  .biografia {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .icono-informacion {
+    padding: 57px 0 68px 0;
+  }
+  
+  /*Service*/
+  
+  .contenedor-servicios {
+    color: #2c2c2c;
+  }
+  
+  .servicio-subtitulo {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin: 66px 0 48px 0;
+  }
+  
+  .servicio-bloques {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .item-servicio {
+    margin: 0px 56px 100px;
+  }
+  
+  .imagen-servicio {
+    width: 138px;
+  }
+  .pie-imagen {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    margin: 18px 0 15px 0;
+  }
+  
+  .parrafo-servicios {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  /*Form*/
+  
+  .contenedor-formulario {
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formulario {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+  }
+  
+  .titulo-formulario {
+    color: #fafafa;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    margin: 69px 52px 36px 52px;
+  }
+  
+  .contenedor-input-formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 27px;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .input {
+    margin-top: 10px;
+    border: none;
+    height: 45px;
+    border: 3px solid #2c2c2c;
+    border-radius: 4px;
+  }
+  
+  .input-mensaje {
+    height: 113px;
+  }
+  
+  .boton {
+    background-color:lightskyblue;
+    border-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 0;
+  }
+  
+  /*Footer*/
+  
+  .footer {
+    background: #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    font-family: "Roboto", sans-serif;
+    color: #2c2c2c;
+  }
+  
+  .header-logo {
+    width: 77px;
+    height: 71px;
+  }
+  
+  .copy-footer {
+    font-size: 13px;
+  }
+  
+  .lista-redes-footer {
+    list-style: none;
+    padding-left: 0;
+    margin: 85px 0;
+  }
+  
+  .lista-redes-footer li {
+    margin-bottom: 29px;
+  }
+  
+  .lista-redes-footer li a {
+    text-decoration: none;
+    color: #2c2c2c;
+  }
+  
+  .icono-footer {
+    width: 26px;
+    height: 27px;
+    vertical-align: middle;
+  }

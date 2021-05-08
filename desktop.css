@@ -1,0 +1,113 @@
+@media (min-width: 900px) {
+    /*Introduction*/
+  
+    .burguer-header {
+      display: none;
+    }
+    .nav-bar a {
+      text-decoration: none;
+      color: #000000;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      margin-right: 40px;
+      font-size: 24px;
+    }
+  
+    .contenedor-header {
+      grid-area: header;
+      width: 100%;
+      margin-bottom: 100px;
+      margin-top: 36px;
+    }
+  
+    .imagen-introduccion {
+      grid-area: main-right;
+      justify-self: right;
+      margin-right: 30px;
+      width: 400px;
+      height: 360px;
+    }
+  
+    .titulo-introduccion {
+      grid-area: main-left;
+      text-align: left;
+      margin: 0;
+    }
+  
+    .contenedor-introduccion {
+      padding: 0 60px;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-areas:
+        "header header"
+        "main-left main-right"
+        ". main-right";
+  
+      column-gap: 70px;
+    }
+  
+    /*Information*/
+  
+    .contenedor-informacion {
+      flex-direction: row-reverse;
+      justify-content: center;
+    }
+  
+    .bloque {
+      margin: 140px 90px;
+      width: 35vw;
+      align-items: baseline;
+      justify-content: center;
+    }
+  
+    .subtitulo-informacion {
+      margin: 0;
+    }
+  
+    .icono-informacion {
+      width: 211px;
+    }
+  
+    /*Service*/
+  
+    .servicio-subtitulo {
+      font-size: 48px;
+      margin: 60px 0;
+    }
+  
+    .servicio-bloques {
+      flex-direction: row;
+      margin-bottom: 100px;
+    }
+  
+    .item-servicio {
+      margin: 0 80px;
+    }
+  
+    /*Form*/
+  
+    .contenedor-formulario {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .formulario {
+      margin: 100px 0 60px 0;
+      width: 380px;
+      padding: 0;
+    }
+  
+    .titulo-formulario {
+      margin-top: 100px;
+      font-size: 48px;
+    }
+  
+    /*Footer*/
+  
+    .footer {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 100px;
+    }
+  }

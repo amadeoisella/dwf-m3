@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina</title>
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="desktop.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <!--Introduction-->
+    <section class="contenedor-introduccion">
+      <header class="contenedor-header">
+        <img src="./argentina-3.png" alt="logo" class="header-logo" />
+        <div class="burguer-header">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <!--Service-->
+        <nav class="nav-bar">
+          <a href="#link-informacion">Quienes somos</a>
+          <a href="#link-servicios">Servicios</a>
+          <a href="#link-formulario">Contacto</a>
+        </nav>
+      </header>
+      <h1 class="titulo-introduccion">Estudio Contable e Impositivo</h1>
+      <img src="./klipartz.com (1).png" alt="imagenintroduccion" class="imagen-introduccion" />
+    </section>
+
+    <!--Information-->
+    <section class="contenedor-informacion">
+      <div class="bloque">
+        <h2 class="subtitulo-informacion" id="link-informacion">Quienes somos</h2>
+        <p class="biografia">
+          Nos basamos en el conocimiento adquirido a lo largo de los años para brindar un servicio integral contable, impositivo y laboral, que permita dar solución a las necesidades de nuestros clientes en sus finanzas. 
+          Y asi brindar soluciones a las necesidades de nuestros clientes teniendo en cuenta los conocimientos adquiridos en materia de procesos contables, impositivos y laborales; logrando y alcanzando de esta manera grados de excelencia para las empresas e individuos.
+        </p>
+      </div>
+      <img src="./grupo.png" alt="iconoinformacion" class="icono-informacion" />
+    </section>
+
+    <!--Service Container-->
+    <section class="contenedor-servicios">
+      <h2 class="servicio-subtitulo" id="link-servicios">Servicios</h2>
+      <div class="servicio-bloques">
+        
+        
+        <div class="item-servicio">
+          <img
+            src="./contabilidad.png"
+            alt="contabilidad"
+            class="imagen-servicio"
+          />
+          <h3 class="pie-imagen">Contabilidad y Auditoria</h3>
+          <p class="parrafo-servicios">
+            Contabilización de las transacciones de la Sociedad.
+            Análisis de la información procesada.
+            Conciliaciones mensuales de las cuentas contables.
+            Emisión de balances mensuales y trimestrales.
+            Emisión de balance anual y cumplimiento de normas legales vigentes.
+            Análisis de estados Contables.
+            Certificaciones contables de ingresos, de gastos, flujos de fondos, etc.
+            Auditoria y revisiones limitadas.
+            Asesoramiento en la constitución de directorios: cantidad de directores, duración en el cargo, votación, directores suplentes, responsabilidades, remuneraciones y todo los que haga al funcionamiento de este órgano societario.
+          </p>
+        </div>
+        
+        
+        <div class="item-servicio">
+          <img
+            src="./impuesto.png"
+            alt="impuestos"
+            class="imagen-servicio"
+          />
+          <h3 class="pie-imagen">Impositivo</h3>
+          <p class="parrafo-servicios">
+            Inscripciones, altas, bajas, modificaciones, en los distintos impuestos, Jurisdicciones y registros especiales a nivel nacional, provincial y municipal.
+            Asesoramiento sobre impuestos nacionales, provinciales y municipales, informes enmateria fiscal.
+            Planeamiento fiscal de tributación, para disminuir el impacto impositivo en la empresa.
+            Liquidación y confección de DDJJ para personas físicas y Jurídicas.
+            Tramitación de distintos tipos de subsidios y exenciones a nivel nacional, provincial y Municipal.
+            Tramitación de reintegro de IVA por Exportaciones.
+          </p>
+        </div>
+
+
+        <div class="item-servicio">
+          <img 
+            src="./balance.png" 
+            alt="laboral" 
+            class="imagen-servicio" 
+          />
+          <h3 class="pie-imagen">Laboral y Previsional</h3>
+          <p class="parrafo-servicios">
+            Altas, bajas, modificaciones de datos de empleados.
+            Liquidación de Sueldos y jornales.
+            Liquidación y confección de DDJJ laborales, previsionales y sindicales.
+            Confección, administración y auditoria de legajos laborales.
+            Tareas de asesoría respecto de la aplicación de la normativa previsional y laboral y novedades legislativas y reglamentarias.
+            Análisis de las modalidades de contratación de personal. Alternativas y ventajas previstas en el Régimen Previsional Argentino para directores, expatriados y otras modalidades.
+            Asistencia en la determinación de la aplicación de los distintos regímenes de retención existentes en materia previsional.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!--Section Form-->
+    <section class="contenedor-formulario">
+      <h2 class="titulo-formulario" id="link-formulario">Contacto</h2>
+      <div class="formulario">
+        <div class="contenedor-input-formulario">
+          <label for="nombre">NOMBRE</label>
+          <input type="text" id="nombre" class="input" />
+        </div>
+        <div class="contenedor-input-formulario">
+          <label for="email">EMAIL</label>
+          <input type="email" id="email" class="input" />
+        </div>
+        <div class="contenedor-input-formulario">
+          <label for="mensaje">MENSAJE</label>
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            class="input input-mensaje"
+          ></textarea>
+        </div>
+        <div class="contenedor-input-formulario">
+          <button type="button" class="boton input">Enviar</button>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="bloque-footer">
+        <img src="./argentina-3.png" alt="logo" class="header-logo" />
+        <p class="copy-footer">© 2021 Amadeo</p>
+      </div>
+
+      <ul class="lista-redes-footer">
+        <li>
+          <img src="./Vector-Insta.png" alt="instagram" class="icono-footer" />
+          <a href="https://www.instagram.com/" target="_blank"
+            >Instagram</a
+          >
+        </li>
+        <li>
+          <img src="./Vector-Link.png" alt="linkedin" class="icono-footer" />
+          <a href="https://ar.linkedin.com/in/amadeo-isella-3261a9148" target="_blank"
+            >Linkedin</a
+          >
+        </li>
+        <li>
+          <img src="./Vector-Git.png" alt="github" class="icono-footer" />
+          <a href="https://github.com/amadeoisella" target="_blank">Github</a>
+        </li>
+      </ul>
+    </footer>
+
+  </body>
+</html>
